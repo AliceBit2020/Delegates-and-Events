@@ -16,7 +16,7 @@ namespace Delegate
                 this.BirthDay = birthDay;
             }
 
-            public override string ToString()
+            public override string ToString()///  object
             {
                 return string.Format("Имя: {0}; Фамилия: {1}; Дата рождения: {2:d}.", FirstName, LastName, BirthDay);
             }

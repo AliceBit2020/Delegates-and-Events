@@ -2,7 +2,7 @@ using System;
 using System.Threading;
 namespace Delegate
 {
-    delegate void MyDelegate(int a, int b, int c);
+    delegate void MyDelegate(int a, int b, int c);////   Action<int,int,int>
     class Class1
     {
         public static void Max(int a, int b, int c)
@@ -56,7 +56,7 @@ namespace Delegate
             {
                 Console.WriteLine("{0}", item.Method.Name);
             }
-            dg = Min;
+            dg = Min;////   перевизначення
             Console.WriteLine();
             dg(a, b, c);
             foreach (MyDelegate item in dg.GetInvocationList())

@@ -1,7 +1,7 @@
 using System;
 namespace Delegate
 {
-    delegate int MyDelegate(int a, int b, int c);
+    delegate int MyDelegate(int a, int b, int c);//// Func<int,int,int,  int>
     class Class1
     {
         public static int Max(int a, int b, int c)
@@ -42,7 +42,9 @@ namespace Delegate
                     int a = Convert.ToInt32(Console.ReadLine());
                     int b = Convert.ToInt32(Console.ReadLine());
                     int c = Convert.ToInt32(Console.ReadLine());
+
                     Console.WriteLine(dg[choice - 1](a, b, c));
+
                     Console.WriteLine(dg[choice - 1].Invoke(a, b, c));
                 }
                 else break;

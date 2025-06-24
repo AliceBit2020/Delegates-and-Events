@@ -3,7 +3,7 @@ namespace Delegate
 {
     class Program
     {
-        public delegate bool Comparer(object elem1, object elem2);
+        public delegate bool Comparer(object elem1, object elem2);/// Func( object, object, bool)
 
         static class BubbleSorter
         {
