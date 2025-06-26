@@ -1,15 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.489
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Delegates. Creation and initialization", "Delegates and Events\1. Delegates. Creation and initialization.csproj", "{FFFF2C7E-C2A3-443B-AC95-D79155B25650}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Delegates array", "Delegates array\2. Delegates array.csproj", "{B1EB6F15-1D57-4A92-A212-EA98045F2640}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Delegate as method parameter", "Delegate as method parameter\3. Delegate as method parameter.csproj", "{82238DB8-8353-4456-8F33-944BBACC62B7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Multicast delegate", "Multicast delegate\4. Multicast delegate.csproj", "{4797BFEF-8BB0-4DC3-BC2E-D94756EE915C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Processing arrays using multicast delegate", "Processing arrays using multicast delegate\5. Processing arrays using multicast delegate.csproj", "{BBA31E56-0EAC-493A-A811-2C8FFB27FF57}"
 EndProject
@@ -26,6 +24,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Events. Timer", "Events. Timer\11. Events. Timer.csproj", "{F02D92A4-EF7E-441A-BF5C-5FA3E8D7CED0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Events. Cursor keys", "Events. Cursor keys\12. Events. Cursor keys.csproj", "{1574738E-A8BE-41BD-812E-562EA0118D25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Multicast_delegate", "4. Multicast_delegate\4. Multicast_delegate.csproj", "{0FEE4462-5737-4117-B3DA-9F0EADC9FA94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. FiltreArr", "5. FiltreArr\5. FiltreArr.csproj", "{9CCF8A7A-DD78-4695-B6D6-64CA8B496A8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,10 +47,6 @@ Global
 		{82238DB8-8353-4456-8F33-944BBACC62B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82238DB8-8353-4456-8F33-944BBACC62B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82238DB8-8353-4456-8F33-944BBACC62B7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4797BFEF-8BB0-4DC3-BC2E-D94756EE915C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4797BFEF-8BB0-4DC3-BC2E-D94756EE915C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4797BFEF-8BB0-4DC3-BC2E-D94756EE915C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4797BFEF-8BB0-4DC3-BC2E-D94756EE915C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BBA31E56-0EAC-493A-A811-2C8FFB27FF57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BBA31E56-0EAC-493A-A811-2C8FFB27FF57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBA31E56-0EAC-493A-A811-2C8FFB27FF57}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -81,6 +79,14 @@ Global
 		{1574738E-A8BE-41BD-812E-562EA0118D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1574738E-A8BE-41BD-812E-562EA0118D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1574738E-A8BE-41BD-812E-562EA0118D25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FEE4462-5737-4117-B3DA-9F0EADC9FA94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FEE4462-5737-4117-B3DA-9F0EADC9FA94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FEE4462-5737-4117-B3DA-9F0EADC9FA94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FEE4462-5737-4117-B3DA-9F0EADC9FA94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CCF8A7A-DD78-4695-B6D6-64CA8B496A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CCF8A7A-DD78-4695-B6D6-64CA8B496A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CCF8A7A-DD78-4695-B6D6-64CA8B496A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CCF8A7A-DD78-4695-B6D6-64CA8B496A8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -16,7 +16,7 @@ class Test
 
     private static void OnTimer(object sender, ElapsedEventArgs arg /* Предоставляет данные для события Elapsed */)
     {
-        Timer t = (Timer)sender;
+        Timer t = (Timer)sender;/// unboxing
         count++;
         if (count == 10)
             t.Stop();

@@ -67,7 +67,9 @@ namespace TwoDimensionalArray
             {
                 a[i] = new int[10];
                 Console.WriteLine("\nМассив {0}", i + 1);
-                obj(a[i]);
+                
+                
+                obj.Invoke(a[i]);
             }
         }
     }
